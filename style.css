@@ -1,6 +1,10 @@
 .navbar{
     font-family:Anton;
     background-color:white;
+    font-size:20px;
+}
+.navbar-brand{
+    padding-left:6px;
 }
 header{
     background-image:url("keyboard.jpg");
@@ -12,7 +16,7 @@ header{
     text-align: center;
     font-family:Anton;
     color:white;
-    font-size:100px;
+    font-size:90px;
 }
 #shopbutton{
     width:200px;
@@ -52,26 +56,33 @@ header{
 
 .aboutustext{
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
     text-align:center;
+    color: white;
     justify-content:center;
 }
-.MeetOurTeam{
-    image:url(death.jpg); 
-    opacity:0.5;
-    text-align:center;
-    background-size:cover;
-    color:blue;
-    justify-content:center;
-    height:100px;
-    width:100%;
+.team{
+    width: 110px;
+    height:90px;
 }
 
 
 
 .footer{
-    padding-left: 20px;
+    padding-left: 100px;
     background-color: black;
-    opacity:0.5;
+    opacity: 0.8;
+    color: white;
     justify-content:center;
+}
+
+.unique{
+    background-color:black;
+   opacity:0.6;
+    color:white;
+}
+
+.TheShow{
+    height:100px;
+    width:100px;
 }
