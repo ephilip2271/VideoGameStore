@@ -1,3 +1,6 @@
+body{
+    background-color:SkyBlue;
+}
 .navbar{
     font-family:Anton;
     background-color:white;
@@ -18,6 +21,9 @@ header{
     color:white;
     font-size:90px;
 }
+#title{
+    font-size:90px;
+}
 #shopbutton{
     width:200px;
     height:60px;
@@ -26,7 +32,7 @@ header{
 
 .contactus {
     margin-bottom: 80px;
-    background-color: white;
+    background-color: SkyBlue;
     
 }
 .contactus .input-group {
@@ -41,33 +47,34 @@ header{
     width:100%;
     font-size: 15px;
     background-color:lightblue;
+    
 }
+
 .contactus .button:hover {
     background-color: green!important;
 }
 .about-us-container {
-    height:500px;
-    width:100%;
-    background-image: url("coolblue.jpg");
+    /*background-image: url("coolblue.jpg");*/
     background-size:cover;
     text-align:center;
-    color: white;
+    color: black;
+    
 }
 
 .aboutustext{
-    background-color: black;
-    opacity: 0.6;
     text-align:center;
-    color: white;
+    color: black;
     justify-content:center;
+    background-size:cover;
 }
 .team{
-    width: 110px;
-    height:90px;
+    width: 300px;
+    height:200px;
 }
 
-
-
+.locations {
+    text-align: center;
+}
 .footer{
     padding-left: 100px;
     background-color: black;
@@ -77,12 +84,59 @@ header{
 }
 
 .unique{
-    background-color:black;
-   opacity:0.6;
-    color:white;
+   /* background-color:black;*/
+   /*opacity:0.6;*/
+    color:black;
 }
 
-.TheShow{
-    height:100px;
+.footer i {
+    
+    padding-right: 10px;
+}
+
+.Location{
+    text-align:center;
+}
+.Corsair{
+    height:170px;
+    width:300px;
+}
+
+.videogame{
+    width: 300px;
+    height:400px;
+}
+
+button.games{
+    height:50px;
     width:100px;
+    color:blue;
+}
+
+.meetus{
+    text-align:center;
+}
+
+.Games{
+    text-align:center;
+}
+
+.games{
+    margin:auto;
+}
+
+#gametitle{
+    font-size:70px;
+    font-family:Anton;
+}
+.team {
+    border-radius: 45%;
+}
+
+.answers{
+    height:400px;
+}
+
+.description{
+    width:300px;
 }
