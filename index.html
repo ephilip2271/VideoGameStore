@@ -23,12 +23,14 @@
   		</button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#aboutus">About Us <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#games">Games</a>
-                <a class="nav-item nav-link" href="#aboutus">Our Team </a>
+                <a class="nav-item nav-link" href="#ourpeople">Our Team </a>
                 <a class="nav-item nav-link" href="#contactus">Contact Us</a>
             </div>
         </div>
+        <i class="fas fa-shopping-cart"></i>
+        <a class="nav-item nav-link" href="#">Login/Signup</a>
     </nav>
 
 
@@ -36,61 +38,68 @@
         <h1 id="title">Daybreak Video Games</h1>
         <a href="#games"><button type="button" class="btn btn-primary" id="shopbutton">Shop Games</button></a>
     </header>
-
+    
+    <br>
+    <br>
+    <br>
     <!--What Are we??-->
     <section class="about-us-container container-fluid">
-        <h1 id="About Us">What Are We ?</h1>
-        <h3>About Us</h3>
-        <hr></hr>
-        <!--background-->
-
-        <div class="aboutustext">
-            <h4>Gaming is a very expensive industry to be in, but at Daybreak Video Games we allow you to bargain a price if you think that it should be cheaper. We provide our customers with a place to buy video games at a reasonable price.</h4>
-        </div>
-
+        <h1 id="aboutus">What Are We ?</h1>
+        <br>
+        <!--<h3>About Us</h3>-->
+        <!--<hr></hr>-->
+        <p id = "description">Gaming is a very expensive industry to be in, but at Daybreak Video Games we allow you to bargain a price if you think that it should be cheaper. We provide our customers with a place to buy video games at a reasonable price.</p>
+        <br>
+        <br>
         <i class="fas fa-child"></i>
-        <h2>Services</h2>
-        <hr></hr>
+        <br>
+        <h2 id="services">Services</h2>
+        <br>
+        <br>
         <div class="unique">
             <div class="row">
                 <div class="col-md-6">
                     <i class="fas fa-tools"></i>
-                    <h1>Repair</h1>
+                    <h1 class ="service">Repair</h1>
                     <h4>Our store allows Free Repair within a year </h4>
-                    <img src="repair.jpg">
+                    <img class="serviceimg" src="repair.jpg">
                 </div>
                 <div class="col-md-6">
                     <i class="fas fa-gamepad"></i>
-                    <h1>Free Experience</h1>
+                    <h1  class ="service">Free Experience</h1>
                     <h4>In our store, you can try out new games before buying them</h4>
-                    <img src="gaming experience.jpg">
+                    <img class="serviceimg" src="gaming experience.jpg">
                 </div>
             </div>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-md-6">
                     <i class="fas fa-chess"></i>
-                    <h1>Competition</h1>
+                    <h1  class ="service">Competition</h1>
                     <h4>Every Sunday our store offer tournament over 30 different game</h4>
-                    <img src="esport.jpg">
+                    <img class="serviceimg" src="esport.jpg">
                 </div>
                 <div class="col-md-6">
                     <i class="fas fa-user-friends"></i>
-                    <h1>1 on 1 class</h1>
+                    <h1  class ="service">1 on 1 class</h1>
                     <h4>We offer 1 on 1 training with a professional player over 100 games </h4>
-                    <img src="Gaming setup.jpg">
+                    <img class="serviceimg" src="Gaming setup.jpg">
                 </div>
                 
             </div>
         </div>
     </section>
-
+    <hr>
+    <br>
+    <br>
     <section class="locations">
             <div class="row">
                 <div class="col-md-12">
-                    <hr></hr>
-                    <h1>Tournament Sponsor By</h1>
+                    <h1 id="sponsor">Tournaments Sponsored By:</h1>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-4">
                     <h2>Razer </h2>
@@ -107,16 +116,16 @@
                 </div>
 
             </div>
+            <br>
         <hr></hr>
     </section>
-    <br>
     <br>
     <section class="Games" id="games">
         <!--Putting our games here-->
         <!--MLB The Show 17 (PS4) 50 bucks SunQiao-->
         <div class="row">
                 <div class="col-md-12">
-            <h1 id="gametitle">Our Games</h1>
+            <h1 id="gametitle">Games</h1>
             </div>
         </div>
         <br>
@@ -171,31 +180,35 @@
     <hr>
     <br>
     </section>
-    <section class="meetus">
-        <h1>Meet Our Team</h1>
+    <section class="meetus" id="ourpeople">
+        <h1 id ="team">Meet Our Team</h1>
         <p> These are the people that keep our buisness running! </p>
         <div class="row">
             <div class="col-md-4">
                 <img class="team" src="spiderman.jpg">
-                <h1>NotJack</h1>
+                <h1 id="name">NotJack</h1>
                 <p>The big boss, he runs the whole place!</p>
             </div>
             <div class="col-md-4">
                 <img class="team" src="deadmau5.png">
-                <h1>Sneaky</h1>
+                <h1 id="name">Sneaky</h1>
                 <p>He's in charge of the shipments of the store.</p>
             </div>
             <div class="col-md-4">
                 <img class="team" src="kirby.png">
-                <h1>Dexter</h1>
+                <h1 id="name">Dexter</h1>
                 <p>The best money handler and nicest cashier around!</p>
             </div>
         </div>
     </section>
-
+    <br>
+    <hr>
+    <br>
     <!-- Contact Us-->
     <section class="contactus">
-        <h1 id="contactus">Contact Us.</h1>
+        <h1 id="contactus">Contact Us</h1>
+        <br>
+        <br>
         <div class="row">
             <div class="col-md-6">
                 <div class="input-group input-group-lg">

@@ -1,5 +1,5 @@
 body{
-    background-color:SkyBlue;
+    background-color:#A0E0FB;
 }
 .navbar{
     font-family:Anton;
@@ -8,7 +8,7 @@ body{
     position:fixed;
     z-index:1;
     width:100%;
-    box-shadow: 2px 2px 20px SkyBlue;
+    box-shadow: 2px 2px 20px #A0E0FB;
 }
 .navbar-brand{
     padding-left:6px;
@@ -36,7 +36,6 @@ header{
 
 .contactus {
     margin-bottom: 80px;
-    background-color: SkyBlue;
     
 }
 .contactus .input-group {
@@ -50,7 +49,8 @@ header{
     border-radius: 0;
     width:100%;
     font-size: 15px;
-    background-color:lightblue;
+    background-color: green;
+
     
 }
 
@@ -149,4 +149,113 @@ button.games{
     height: 300px;
     width: 100%;
     }
-    
+  
+#aboutus {
+	display: inline;
+	position: relative;
+	font: 70px Anton;
+	color: rgba(255,255,255,0.7); 
+}
+
+#aboutus:after {
+	content: "What Are We?";
+	position: absolute; left: 5px; top: 2px;
+	color:  rgba(65,105,255,0.7);  
+}
+
+h3{
+    font-family:Work Sans;
+}
+
+#description{
+    font-family:Work Sans;
+    font-size:25px;
+    padding:10px;
+}
+
+#services{
+    display: inline;
+	position: relative;
+	font: 60px Anton;
+	color: rgba(255,255,255,0.7); 
+}
+
+#services:after {
+	content: "Services";
+	position: absolute; left: 3px; top: 1px;
+	color:  rgba(65,105,255,0.7);  
+}
+
+.service{
+    font: 40px Anton;
+	color: rgba(65,105,255,0.7); 
+}
+
+h4{
+    font-family:Work Sans;
+}
+
+.serviceimg{
+    width:300px;
+    height:200px;
+    padding:5px;
+}
+
+#sponsor{
+    font: 40px Anton;
+	color: rgba(65,105,255,0.7); 
+}
+h2{
+    font-family: Work Sans;
+    font-size:30px;
+}
+
+#gametitle{
+    display: inline;
+	position: relative;
+	font: 60px Anton;
+	color: rgba(255,255,255,0.7); 
+}
+
+#gametitle:after {
+	content: "Games";
+	position: absolute; left: 3px; top: 1px;
+	color:  rgba(65,105,255,0.7);  
+}
+
+#team{
+    display: inline;
+	position: relative;
+	font: 60px Anton;
+	letter-spacing: 2px;
+	color: rgba(255,255,255,0.7); 
+}
+
+#team:after {
+	content: "Meet OurTeam";
+	position: absolute; left: 7px; top: 1px;
+	color:  rgba(65,105,255,0.7);  
+}
+
+#contactus{
+    display: inline;
+	position: relative;
+	font: 60px Anton;
+	letter-spacing: 2px;
+	color: rgba(255,255,255,0.7); 
+}
+
+#contactus:after {
+	content: "ContactUs";
+	position: absolute; left: 5px; top: 1px;
+	color:  rgba(65,105,255,0.7);  
+}
+
+.contactus{
+    text-align:center;
+}
+
+#name{
+    font-family:Work Sans;
+    font-size:40px;
+}
